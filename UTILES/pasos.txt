@@ -16,6 +16,8 @@ php artisan make:migration create_estados_table
 
 php artisan make:migration create_prioridades_table
 
+php artisan make:migration create_sedes_table
+
 
 -- MODELOS
 
@@ -32,3 +34,6 @@ php artisan make:model Incidencia
 php artisan make:model Estado
 
 php artisan make:model Prioridad
+
+php artisan make:model Sede
+
