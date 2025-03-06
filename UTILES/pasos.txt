@@ -1,0 +1,34 @@
+-- MIGRACIONES
+
+php artisan make:migration create_roles_table
+
+php artisan make:migration create_categorias_table
+
+php artisan make:migration create_users_table
+
+php artisan make:migration create_categorias_table
+
+php artisan make:migration create_subcategorias_table
+
+php artisan make:migration create_incidencias_table
+
+php artisan make:migration create_estados_table
+
+php artisan make:migration create_prioridades_table
+
+
+-- MODELOS
+
+php artisan make:model Role
+
+php artisan make:model User
+
+php artisan make:model Categoria
+
+php artisan make:model Subcategoria
+
+php artisan make:model Incidencia
+
+php artisan make:model Estado
+
+php artisan make:model Prioridad
