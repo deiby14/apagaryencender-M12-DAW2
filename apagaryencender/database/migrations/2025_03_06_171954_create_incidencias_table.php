@@ -14,6 +14,7 @@ return new class extends Migration {
             $table->foreignId('subcategoria_id')->constrained('subcategorias')->onDelete('cascade');
             $table->foreignId('estado_id')->constrained('estados')->onDelete('cascade');
             $table->foreignId('prioridad_id')->nullable()->constrained('prioridades')->onDelete('cascade');
+            $table->foreignId('sede_id')->constrained('sedes')->onDelete('cascade');
             $table->string('descripcion');
             $table->timestamp('fecha_creacion')->useCurrent();
             $table->timestamp('fecha_resolucion')->nullable();

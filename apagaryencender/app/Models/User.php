@@ -22,4 +22,8 @@ class User extends Authenticatable {
     public function incidenciasTecnico() {
         return $this->hasMany(Incidencia::class, 'tecnico_id');
     }
+
+    public function sede() {
+        return $this->belongsTo(Sede::class);
+    }
 }

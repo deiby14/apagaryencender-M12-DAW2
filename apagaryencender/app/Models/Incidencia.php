@@ -36,4 +36,8 @@ class Incidencia extends Model {
     public function prioridad() {
         return $this->belongsTo(Prioridad::class);
     }
+
+    public function sede() {
+        return $this->belongsTo(Sede::class);
+    }
 }
